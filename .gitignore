@@ -1,45 +1,15 @@
-# Python bytecode files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Ignore data files
+data/
+*.csv
+*.xlsx
+*.json
 
-# Virtual environment folders
-venv/
-env/
-.venv/
-.env/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# VS Code settings
-.vscode/
-
-# Python distribution files
-*.egg
-*.egg-info
-dist/
-build/
-
-# PyInstaller
-*.spec
-
-# Docker
-.docker/
-
-# IDE and editor files
-.idea/
-*.swp
-*.swo
-
-# Logs and temporary files
+# Ignore logs, temporary files, and IDE settings
 *.log
 *.tmp
+.vscode/
+.idea/
 
-# Database files (if any)
-*.sqlite3
-*.db
-
-# Configuration files
-*.env
+# Ignore Python bytecode
+__pycache__/
+*.pyc
