@@ -3,12 +3,14 @@ data/
 *.csv
 *.xlsx
 *.json
+*.png
 
 # Ignore logs, temporary files, and IDE settings
 *.log
 *.tmp
 .vscode/
 .idea/
+.env
 
 # Ignore Python bytecode
 __pycache__/
